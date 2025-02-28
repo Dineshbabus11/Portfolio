@@ -14,6 +14,7 @@
 }
 .home .right_part img{
     max-width: 400px;
+    width: 100%;
 }
 
 .home .left_part p{
@@ -32,6 +33,22 @@
     font-size: 20px;
     font-weight: 600;
 }
+.home .left_part button{
+    padding: 5px 30px 5px 30px;
+    margin-top: 20px;
+    font-size: 18px;
+    background-color: #747d8c;
+    border: 2px solid #747d8c;
+    border-radius: 5px;
+    color: white;
+    font-weight: 550;
+    cursor: pointer;
+}
+.home .left_part button:hover{
+    background-color: white;
+    color: #747d8c;
+    transition: 0.4s;
+}
 /* Mobile version */
 @media screen and (max-width:480px) {
     .home{
@@ -44,5 +61,7 @@
     .home{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
