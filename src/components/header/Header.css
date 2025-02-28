@@ -1,0 +1,49 @@
+/* Desktop version */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 52px 20px 52px;
+    top: 0;
+    position: sticky;
+    z-index: 3;
+    background-color:white;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+}
+.header_right{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.header_right{
+    color:#2f3542;
+    font-weight: 600;
+}
+.header_menu{
+    display: none;
+    cursor: pointer;
+}
+.header_right h4{
+    cursor: pointer;
+}
+.header_right h4:hover{
+    color: #747d8c;
+}
+/* Mobile version */
+@media screen and (max-width:480px) {
+    .header_right{
+        display: none;
+    }
+    .header_menu{
+        display: block;
+    }
+}
+/* Tablet version */
+@media screen and (max-width:768px) {
+    .header_right{
+        display: none;
+    }
+    .header_menu{
+        display: block;
+    }
+}
