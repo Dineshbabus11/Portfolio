@@ -8,6 +8,7 @@
 .home .location_part{
     display: flex;
     align-items: center;
+    gap: 10px;
 }
 .left_part, .right_part {
     flex: 1; 
