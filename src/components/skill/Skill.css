@@ -1,0 +1,25 @@
+.skill{
+    width: 100%;
+    padding: 50px;
+}
+.skill .skill_heading{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+.skill_heading h1{
+    font-size: 25px;
+}
+.skill_content{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    
+}
+.skill_content img{
+    max-width: 100px;
+    width: 100%;
+}
