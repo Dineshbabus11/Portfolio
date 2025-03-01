@@ -58,7 +58,9 @@
         justify-content: center;
     }
     .home .right_part img{
-        display: none;
+        max-width: 250px;
+        width: 100%;
+        margin-bottom: 50px;
     }
 }
 /* Tablet version */
