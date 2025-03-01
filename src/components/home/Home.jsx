@@ -6,6 +6,9 @@ import { Link } from 'react-scroll';
 export const Home = () => {
   return (
     <div className='home'>
+      <div className='right_part'>
+            <img src={HomeImg} alt="home"/>
+        </div>
         <div className='left_part'>
             <h1>Dinesh Babu S</h1>
             <p>I am a Developer</p>
@@ -16,9 +19,6 @@ export const Home = () => {
             <Link>
               <button>Download CV</button>
             </Link>
-        </div>
-        <div className='right_part'>
-            <img src={HomeImg} alt="home"/>
         </div>
     </div>
   )
