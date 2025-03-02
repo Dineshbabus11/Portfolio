@@ -1,11 +1,13 @@
 .skill{
     width: 100%;
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .skill .skill_heading{
     display: flex;
     align-items: center;
     gap: 10px;
+    margin-left: 50px;
     margin-bottom: 50px;
 }
 .skill_heading h1{
@@ -17,9 +19,13 @@
     justify-content: space-between;
     align-items: center;
     gap: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
     
 }
 .skill_content img{
     max-width: 100px;
     width: 100%;
 }
+
+/* Media query not required */

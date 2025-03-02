@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-scroll'
 import './Header.css'
-import MenuIcon from '@mui/icons-material/Menu';
 
 export const Header = () => {
   return (
@@ -27,7 +26,7 @@ export const Header = () => {
         </div>
         {/* Menu icon for small screen */}
         <div className='header_menu'>
-            <MenuIcon/>
+          <a href="mailto:msgtodineshbabus@gmail.com"><button>Contact</button></a>
         </div>
         
     </div>

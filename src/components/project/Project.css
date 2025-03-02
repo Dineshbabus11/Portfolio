@@ -1,13 +1,15 @@
 .project{
     background-color:#747d8c;
     width: 100%;
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .project .project_heading{
     display: flex;
     align-items: center;
     gap: 10px;
     margin-bottom: 50px;
+    margin-left: 50px;
 }
 .project_heading h1{
     font-size: 25px;

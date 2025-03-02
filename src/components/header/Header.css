@@ -3,7 +3,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:20px 52px 20px 52px;
     position: sticky;
     top: 0;
     z-index: 3;
@@ -14,6 +13,14 @@
     display: flex;
     justify-content: space-between;
     gap: 50px;
+    margin-top: 20px;
+    margin-right: 52px;
+    margin-bottom: 20px;
+}
+.header_left{
+    margin-top: 20px;
+    margin-left: 52px;
+    margin-bottom: 20px;
 }
 .header_right{
     color:#2f3542;
@@ -36,6 +43,23 @@
     .header_menu{
         display: inline;
         cursor: pointer;
+        margin-right: 50px;
+    }
+    .header_menu button{
+        background-color: black;
+        padding: 5px 10px 5px 10px;
+        font-size: 15px;
+        width: 120px;
+        border: 3px solid black;
+        border-radius: 5px;
+        color: white;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .header_menu button:hover{
+        background-color: white;
+        transition: 0.3s;
+        color: black;
     }
 }
 /* Tablet version */
@@ -46,5 +70,22 @@
     .header_menu{
         display: block;
         cursor: pointer;
+        margin-right: 50px;
+    }
+    .header_menu button{
+        background-color: black;
+        padding: 5px 10px 5px 10px;
+        font-size: 15px;
+        width: 120px;
+        border: 3px solid black;
+        border-radius: 5px;
+        color: white;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .header_menu button:hover{
+        background-color: white;
+        transition: 0.3s;
+        color: black;
     }
 }

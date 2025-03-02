@@ -1,0 +1,32 @@
+.contact{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.contact .contact_heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+.contact_heading h1{
+    font-size: 25px;
+}
+.contact_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact_content a{
+    text-decoration: none;
+    color: black;
+}
+
+.contact_content .contact_logo{
+    display: flex;
+    gap: 30px;
+}

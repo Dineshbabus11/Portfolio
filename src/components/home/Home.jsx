@@ -2,7 +2,6 @@ import React from 'react'
 import './Home.css'
 import HomeImg from './home_img.jpg'
 import NearMeIcon from '@mui/icons-material/NearMe';
-import { Link } from 'react-scroll';
 export const Home = () => {
   return (
     <div className='home'>
@@ -16,9 +15,7 @@ export const Home = () => {
               <span>From Coimbatore</span>
               <NearMeIcon/>  
             </div>
-            <Link>
-              <button>Download CV</button>
-            </Link>
+            <a href='/Dinesh_Resume.pdf' download="Dinesh_Resume.pdf"><button>Download CV</button></a>
         </div>
     </div>
   )
