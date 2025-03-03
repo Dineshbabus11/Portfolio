@@ -34,6 +34,29 @@
     border: 5px solid white;
     margin-right: 50px;
 }
+.education_heading{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.education_content{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    color: white;
+}
+.education_detail{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+.education_detail p{
+    font-size: 12px;
+}
 /* Mobile version */
 @media screen and (max-width:480px) {
     .about_content{
@@ -56,5 +79,8 @@
     }
     .about_content img{
         margin-left: 50px;
+    }
+    .education_detail{
+        flex-direction: column ;
     }
 }
